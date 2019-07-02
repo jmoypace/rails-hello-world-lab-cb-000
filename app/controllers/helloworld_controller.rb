@@ -1,6 +1,6 @@
 class HelloworldController < ApplicationController
 
-def home
- <h1>Hello World</h1>
+def index
+ 
 end
 end
