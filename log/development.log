@@ -193,3 +193,13 @@ render : plain => "<h1>Hello World</h...
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.1ms)
+
+
+Started GET "/hello_world" for 71.183.96.69 at 2019-07-02 20:56:50 +0000
+
+SyntaxError (/home/jmoypace/rails-hello-world-lab-cb-000/app/controllers/helloworld_controller.rb:4: syntax error, unexpected ':', expecting end
+render : plain => "Hello World"
+       ^):
+  app/controllers/helloworld_controller.rb:4: syntax error, unexpected ':', expecting end
+
+
