@@ -213,3 +213,9 @@ Started GET "/hello_world" for 71.183.96.69 at 2019-07-02 20:57:10 +0000
 Processing by HelloworldController#home as HTML
   Rendered text template (0.0ms)
 Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 71.183.96.69 at 2019-07-02 20:57:26 +0000
+Processing by HelloworldController#home as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
