@@ -1,4 +1,4 @@
 class HelloworldController < ApplicationController
 
-  
+
 end
