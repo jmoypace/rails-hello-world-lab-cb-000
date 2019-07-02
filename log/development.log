@@ -219,3 +219,31 @@ Started GET "/hello_world" for 71.183.96.69 at 2019-07-02 20:57:26 +0000
 Processing by HelloworldController#home as HTML
   Rendered text template (0.0ms)
 Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 71.183.96.69 at 2019-07-02 20:57:39 +0000
+
+SyntaxError (/home/jmoypace/rails-hello-world-lab-cb-000/app/controllers/helloworld_controller.rb:4: syntax error, unexpected =>, expecting end
+render  => "<h1>Hello World</h1>"
+        ^~):
+  app/controllers/helloworld_controller.rb:4: syntax error, unexpected =>, expecting end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.2ms)
+
+
+Started GET "/hello_world" for 71.183.96.69 at 2019-07-02 20:57:40 +0000
+
+SyntaxError (/home/jmoypace/rails-hello-world-lab-cb-000/app/controllers/helloworld_controller.rb:4: syntax error, unexpected =>, expecting end
+render  => "<h1>Hello World</h1>"
+        ^~):
+  app/controllers/helloworld_controller.rb:4: syntax error, unexpected =>, expecting end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-4.2.11.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.6ms)
